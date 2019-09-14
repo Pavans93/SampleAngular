@@ -1,0 +1,17 @@
+<p>Hey congrats you have {{resp&&resp.cars?resp.cars.length:0}} cars in your garage</p>
+
+<p *ngIf="outputfromChild">from Child you got data : {{outputfromChild}}</p>
+<div *ngIf="resp && resp.cars">
+  <ul *ngFor="let car of resp.cars">
+    <!-- <li (click)="selectedCar(car)">{{car.name}}</li> -->
+
+    <li (click)="navigateCar(car)">{{car.name}}</li>
+
+  </ul>
+</div>
+
+<!-- <app-third *ngIf="car" [car]="car" (changeValue)="valueChanged($event)"></app-third>
+ -->
+<app-second *ngIf="resp && resp.bikes" [bikes]="resp.bikes"></app-second>
+
+

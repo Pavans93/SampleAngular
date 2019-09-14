@@ -1,0 +1,7 @@
+<p>Hey congrats you have {{bikes.length}} bikes in your garage</p>
+<div *ngIf="bikes && bikes.length > 0">
+  <ul *ngFor="let bike of bikes">
+    <li>{{bike.name}}</li>
+  </ul>
+</div>
+

@@ -1,0 +1,46 @@
+{
+  "cars": [
+    {
+      "name": "omini 1",
+      "model": 2019,
+      "price": "5lk"
+    },
+    {
+      "name": "omini 2",
+      "model": 2018,
+      "price": "5lk"
+    },
+    {
+      "name": "omini 3",
+      "model": 2017,
+      "price": "5lk"
+    },
+    {
+      "name": "omini 4",
+      "model": 2016,
+      "price": "5lk"
+    }
+  ],
+  "bikes": [
+    {
+      "name": "suzuki 1",
+      "model": 2019,
+      "price": "1lk"
+    },
+    {
+      "name": "suzuki 2",
+      "model": 2019,
+      "price": "2lk"
+    },
+    {
+      "name": "suzuki 3",
+      "model": 2019,
+      "price": "5lk"
+    },
+    {
+      "name": "suzuki 4",
+      "model": 2019,
+      "price": "5lk"
+    }
+  ]
+}
